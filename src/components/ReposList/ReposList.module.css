@@ -24,3 +24,8 @@
     padding: 8px;
     text-decoration: none;
 }
+
+h1 {
+    display: flex;
+    justify-content: center;
+}

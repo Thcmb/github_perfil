@@ -12,7 +12,10 @@ import ReposList from "./components/ReposList";
 
     return (
       <>
+      <div className="usuario">
+        <label htmlFor="">Insira o nome do Usuario</label>
       <input type="text" onBlur={(e) =>setnomeUsuario(e.target.value)}/>
+      </div>
 
       {nomeUsuario.length > 4 && (
         <>
